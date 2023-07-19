@@ -1,0 +1,26 @@
+{
+    "name": "file-header-comment",
+    "displayName": "File Header Comment",
+    "version": "1.0.0",
+    "publisher": "Hitesh Kumain",
+    "description": "An extension for creating file header comments.",
+    "engines": {
+      "vscode": "^1.0.0"
+    },
+    "categories": [
+      "Other"
+    ],
+    "activationEvents": [
+      "onCommand:hitesh-extension.createFileHeaderComment"
+    ],
+    "main": "./hitesh-extension.js",
+    "contributes": {
+      "commands": [
+        {
+          "command": "extension.createFileHeaderComment",
+          "title": "Create File Header Comment"
+        }
+      ]
+    }
+  }
+  
